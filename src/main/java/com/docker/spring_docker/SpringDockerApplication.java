@@ -11,7 +11,7 @@ public class SpringDockerApplication {
 
 	@GetMapping
 	public String getMessage(){
-		return "Welcome to Docker";
+		return "Welcome to Docker and CICD";
 	}
 
 	public static void main(String[] args) {
