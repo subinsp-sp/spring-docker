@@ -25,6 +25,6 @@ jobs:
       - name: Update dependency graph
         uses: advanced-security/maven-dependency-submission-action@v3
         with:
-          maven-project-directory: .
+          directory: .
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_WITH_ACCESS }}
+          token: ${{ secrets.GITHUB_TOKEN }}
